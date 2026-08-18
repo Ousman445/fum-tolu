@@ -24,8 +24,8 @@ export const CATEGORIES = [
     bgColor: '#E0F2FE',
     iconColor: '#0284C7',
     problems: [
-      { id: 'pipe-burst', label: 'Pipe burst or leak' },
-      { id: 'no-running-water', label: 'No running water' },
+      { id: 'no-water', label: 'No water supply' },
+      { id: 'burst-pipe', label: 'Burst water pipe' },
       { id: 'low-pressure', label: 'Low water pressure' },
       { id: 'dirty-water', label: 'Contaminated / dirty water' },
       { id: 'broken-tap', label: 'Broken public tap' },
@@ -41,8 +41,8 @@ export const CATEGORIES = [
     iconColor: '#C2410C',
     problems: [
       { id: 'pothole', label: 'Pothole' },
+      { id: 'flooded-drainage', label: 'Flooded/blocked drainage' },
       { id: 'damaged-road', label: 'Damaged road' },
-      { id: 'flooding-drainage', label: 'Flooding/blocked drainage' },
       { id: 'fallen-tree-debris', label: 'Fallen tree or debris' },
       { id: 'damaged-road-sign', label: 'Damaged road sign' },
     ]
@@ -56,8 +56,8 @@ export const CATEGORIES = [
     bgColor: '#DCFCE7',
     iconColor: '#16A34A',
     problems: [
-      { id: 'garbage-uncollected', label: 'Garbage not collected' },
-      { id: 'illegal-dumping', label: 'Illegal dumping site' },
+      { id: 'uncollected-waste', label: 'Uncollected waste' },
+      { id: 'illegal-dumping', label: 'Illegal dumping' },
       { id: 'overflowing-bin', label: 'Overflowing public bin' },
       { id: 'blocked-drainage', label: 'Blocked drainage / gutter' },
       { id: 'dead-animal', label: 'Uncollected dead animal' },
@@ -72,8 +72,8 @@ export const CATEGORIES = [
     bgColor: '#FEF9C3',
     iconColor: '#CA8A04',
     problems: [
-      { id: 'whole-street-dark', label: 'Whole street is dark' },
-      { id: 'light-not-working', label: 'Light not working' },
+      { id: 'broken-streetlight', label: 'Broken streetlight' },
+      { id: 'dark-street', label: 'Dark street' },
       { id: 'flickering-light', label: 'Flickering street light' },
       { id: 'broken-pole', label: 'Broken pole or fixture' },
       { id: 'daytime-light', label: 'Light on during daytime' },
